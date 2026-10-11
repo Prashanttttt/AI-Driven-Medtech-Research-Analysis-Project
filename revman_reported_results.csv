@@ -1,0 +1,26 @@
+plot,outcome,subgroup_variable,subgroup,hr,ci_low,ci_high,tau2,chi2,df,i2_pct,z,p
+1,mortality,NYHA,Class II,0.74,0.48,1.13,0.25,115.31,5,96,1.38,0.17
+1,mortality,NYHA,Class III,1.14,0.72,1.81,0.34,105.35,6,94,0.58,0.56
+1,mortality,NYHA,Class IV,1.07,0.53,2.12,0.58,121.49,4,97,0.18,0.86
+1,mortality,NYHA,Total,0.97,0.74,1.28,0.31,414.15,17,96,0.21,0.83
+2,hospitalisation,NYHA,Class III/IV,0.77,0.47,1.27,0.28,92.19,4,96,1.01,0.31
+2,hospitalisation,NYHA,Class I/II,0.90,0.57,1.43,0.21,101.43,3,97,0.45,0.66
+2,hospitalisation,NYHA,Total,0.84,0.63,1.11,0.17,194.75,8,96,1.22,0.22
+3,mortality,LVEF,LVEF >35%,0.67,0.40,1.13,0.24,34.86,3,91,1.51,0.13
+3,mortality,LVEF,LVEF <35%,1.16,0.72,1.87,0.24,186.43,4,98,0.62,0.54
+3,mortality,LVEF,Total,0.89,0.71,1.13,0.09,221.29,8,96,0.93,0.35
+4,hospitalisation,LVEF,LVEF <35%,1.09,0.92,1.29,0.03,101.69,4,96,0.99,0.32
+4,hospitalisation,LVEF,LVEF >35%,0.68,0.38,1.21,0.23,26.82,2,93,1.31,0.19
+4,hospitalisation,LVEF,Total,1.00,0.86,1.15,0.03,153.22,7,95,0.05,0.96
+5,mortality,Gender,Female,0.87,0.65,1.17,0.09,34.01,5,85,0.92,0.36
+5,mortality,Gender,Male,1.05,0.76,1.45,0.14,80.38,5,94,0.29,0.77
+5,mortality,Gender,Total,0.96,0.78,1.17,0.10,119.72,11,91,0.43,0.67
+6,hospitalisation,Gender,Male,0.71,0.60,0.84,0.00,0.11,1,0,3.97,0.0001
+6,hospitalisation,Gender,Female,0.70,0.41,1.20,0.26,69.73,3,96,1.30,0.19
+6,hospitalisation,Gender,Total,0.72,0.47,1.10,0.20,99.53,5,95,1.53,0.13
+7,mortality,Age,Age <70,0.77,0.68,0.88,0.00,1.74,3,0,3.99,0.0001
+7,mortality,Age,Age >70,0.86,0.72,1.03,0.04,44.37,6,86,1.63,0.10
+7,mortality,Age,Total,0.83,0.72,0.96,0.04,56.79,10,82,2.59,0.010
+8,hospitalisation,Age,Age >70,0.80,0.73,0.88,0.00,0.72,2,0,4.93,0.00001
+8,hospitalisation,Age,Age <70,0.81,0.57,1.16,0.06,6.36,1,84,1.15,0.25
+8,hospitalisation,Age,Total,0.81,0.71,0.93,0.01,15.99,4,75,3.13,0.002
